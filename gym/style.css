@@ -8,7 +8,6 @@
 :root {
     --primary-black: #0A0A0A;
     --secondary-black: #1A1A1A;
-    --accent-red: #E63946;
     --accent-green: #39FF14;
     --white: #FFFFFF;
     --gray: #666666;
@@ -73,7 +72,7 @@ ul {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.8rem;
     font-weight: 800;
-    color: var(--accent-red);
+    color: white;
     letter-spacing: 2px;
 }
 
@@ -93,7 +92,7 @@ ul {
 
 .nav-menu a:hover,
 .nav-menu a.active {
-    color: var(--accent-red);
+    color: white;
 }
 
 .hamburger {
@@ -153,7 +152,7 @@ ul {
 .hero-subtitle {
     font-size: 1.8rem;
     font-weight: 700;
-    color: var(--accent-red);
+    color: white;
     margin-bottom: 1.5rem;
     letter-spacing: 2px;
 }
@@ -197,7 +196,7 @@ ul {
 .page-subtitle {
     font-size: 1.3rem;
     margin-top: 1rem;
-    color: var(--accent-red);
+    color: white;
     letter-spacing: 1px;
 }
 
@@ -253,7 +252,7 @@ ul {
 
 .program-card:hover {
     transform: translateY(-10px);
-    border-color: var(--accent-red);
+    border-color: white;
     box-shadow: 0 10px 30px rgba(230, 57, 70, 0.3);
 }
 
@@ -290,7 +289,7 @@ ul {
 
 .trainer-card:hover {
     transform: translateY(-10px);
-    border-color: var(--accent-red);
+    border-color: white;
     box-shadow: 0 15px 40px rgba(230, 57, 70, 0.4);
 }
 
@@ -423,7 +422,7 @@ ul {
 }
 
 .philosophy-card:hover {
-    border-color: var(--accent-red);
+    border-color: white;
     transform: translateY(-10px);
     box-shadow: 0 10px 30px rgba(230, 57, 70, 0.3);
 }
@@ -431,7 +430,7 @@ ul {
 .philosophy-card h3 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
-    color: var(--accent-red);
+    color: white;
     letter-spacing: 2px;
 }
 
@@ -466,7 +465,7 @@ ul {
 .motivation-quote {
     font-size: 1.5rem;
     font-style: italic;
-    color: var(--accent-red);
+    color: white;
     margin: 2rem 0;
     line-height: 1.8;
 }
@@ -495,7 +494,7 @@ ul {
 
 .facility-card:hover {
     transform: translateY(-10px);
-    border-color: var(--accent-red);
+    border-color: white;
     box-shadow: 0 15px 40px rgba(230, 57, 70, 0.3);
 }
 
@@ -555,7 +554,7 @@ ul {
     content: "✓";
     position: absolute;
     left: 0;
-    color: var(--accent-red);
+    color: white;
     font-weight: 700;
     font-size: 1.2rem;
 }
